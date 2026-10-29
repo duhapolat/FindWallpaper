@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model ağırlıkları (ilk çalıştırmada otomatik iner)
+modeller/*
+!modeller/.gitkeep
+*.pt
+
+# Çıktılar ve indirilen videolar
+cikti/
+indirilenler/
+*.zip
+*.mp4
+*.mkv
+*.mov
+*.webm
+
+# Editör / araç ayarları
+.claude/
+.vscode/
+.idea/
+.gradio/
+Thumbs.db
+.DS_Store
+
+# Kurulum derleme çıktıları
+installer/build/
+installer/Output/

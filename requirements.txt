@@ -1,0 +1,10 @@
+# GPU (NVIDIA) için torch'u önce ayrıca kur, bkz. README
+torch>=2.4
+torchvision>=0.19
+ultralytics>=8.3
+open_clip_torch>=2.24
+opencv-python>=4.9
+gradio>=5.0
+yt-dlp
+numpy>=1.26,<2.5
+pillow>=10
